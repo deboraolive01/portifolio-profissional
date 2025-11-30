@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MENU -->
+  <header>
+    <nav>
+      <h1>Débora Oliveira Dos Santos</h1>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="container">
+    <h2>Sobre mim</h2>
+    <p>
+      Olá! Sou estudante de Desenvolvimento Web e Sistemas, com foco em criar aplicações modernas e responsivas utilizando HTML, CSS e JavaScript.
+      Gosto de aprender novas tecnologias e estou sempre evoluindo com projetos práticos.
+      Tenho conhecimentos em lógica de programação e banco de dados.
+      Atualmente busco minha primeira oportunidade profissional na área de tecnologia.
+    </p>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="container">
+    <h2>Projetos</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Projeto 1</h3>
+        <p>Um sistema de cadastro de água potável para registrar informações no sistema da empresa.</p>
+        <a href="https://deboraolive01.github.io/Cadastro-de-gua-Pot-vel-/" target="_blank">Ver no GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="container">
+    <h2>Contato</h2>
+
+    <a href="mailto:eidebora_oliveira@hotmail.com">Enviar Email direto</a>
+
+    <form id="contact-form">
+      <input type="text" name="from_name" placeholder="Seu nome" required>
+      <input type="email" name="reply_to" placeholder="Seu email" required>
+      <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>© 2025 - Débora Oliveira</p>
+  </footer>
+
+  <!-- EMAILJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!-- SEU ARQUIVO JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+
