@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Portfólio</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,9 +11,11 @@
   <!-- MENU -->
   <header>
     <nav>
-      <h1>Débora Oliveira Dos Santos</h1>
+      <h1>Débora Oliveira dos Santos</h1>
+      <p class="subtitle">Desenvolvedora  em formação | HTML • CSS • JavaScript</p>
       <ul>
         <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#projetos">Projetos</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
@@ -24,32 +25,80 @@
   <!-- SOBRE -->
   <section id="sobre" class="container">
     <h2>Sobre mim</h2>
+    <img src="WhatsApp Image 2025-12-18 at 20.28.28.jpeg" alt="Foto de Débora Oliveira" class="profile-pic">
     <p>
-      Olá! Sou estudante de Desenvolvimento Web e Sistemas, com foco em criar aplicações modernas e responsivas utilizando HTML, CSS e JavaScript.
-      Gosto de aprender novas tecnologias e estou sempre evoluindo com projetos práticos.
-      Tenho conhecimentos em lógica de programação e banco de dados.
-      Atualmente busco minha primeira oportunidade profissional na área de tecnologia.
+      Sou estudante de Desenvolvimento Web e Sistemas, com foco em Front-end.
+      Trabalho com HTML, CSS e JavaScript na criação de interfaces responsivas e funcionais.
+      Possuo conhecimentos em lógica de programação e banco de dados.
+      Busco minha primeira oportunidade na área de tecnologia para aprender, crescer e contribuir com a equipe.
     </p>
   </section>
 
-  <!-- PROJETOS -->
-  <section id="projetos" class="container">
-    <h2>Projetos</h2>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Projeto 1</h3>
-        <p>Um sistema de cadastro de água potável para registrar informações no sistema da empresa.</p>
-        <a href="https://deboraolive01.github.io/Cadastro-de-gua-Pot-vel-/" target="_blank">Ver no GitHub</a>
-      </div>
-    </div>
+  <!-- HABILIDADES -->
+  <section id="habilidades" class="container">
+    <h2>Habilidades</h2>
+    <ul class="skills">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Lógica de Programação</li>
+      <li>Banco de Dados</li>
+      <li>Git & GitHub</li>
+    </ul>
   </section>
+
+  <!-- PROJETOS -->
+ <section id="projetos" class="container">
+  <h2>Projetos</h2>
+
+  <div class="grid">
+
+    <!-- PROJETO 1 -->
+    <div class="card">
+      <h3>Sistema de Cadastro de Água Potável</h3>
+
+      <video class="video-projeto" controls preload="metadata">
+        <source src="WhatsApp Video 2025-12-26 at 13.36.00.mp4" type="video/mp4">
+      </video>
+
+      <p>
+        Sistema desenvolvido para cadastro e organização de informações,
+        com foco em formulários, validação de dados e estruturação de páginas.
+      </p>
+      <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
+
+      <a href="https://deboraolive01.github.io/Cadastro-de-gua-Pot-vel-/" target="_blank">
+        Ver projeto
+      </a>
+    </div>
+
+    <!-- PROJETO 2 -->
+    <div class="card">
+      <h3>Clone do Google</h3>
+
+      <img src="Captura de te google.png" alt="Clone do Google" class="img-projeto">
+
+      <p>Recriação da página inicial do Google.</p>
+      <p><strong>Tecnologias:</strong> HTML, CSS</p>
+    </div>
+
+  </div>
+</section>
 
   <!-- CONTATO -->
   <section id="contato" class="container">
     <h2>Contato</h2>
 
-    <a href="mailto:eidebora_oliveira@hotmail.com">Enviar Email direto</a>
+    <p>Email:
+      <a href="mailto:eidebora_oliveira@hotmail.com">
+        eidebora_oliveira@hotmail.com
+      </a>
+    </p>
+
+    <p>
+      <a href="https://github.com/deboraolive01" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    </p>
 
     <form id="contact-form">
       <input type="text" name="from_name" placeholder="Seu nome" required>
@@ -66,11 +115,7 @@
 
   <!-- EMAILJS -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
-  <!-- SEU ARQUIVO JS -->
   <script src="script.js"></script>
 
 </body>
 </html>
-
-
